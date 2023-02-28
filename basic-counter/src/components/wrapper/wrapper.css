@@ -8,5 +8,14 @@
     border-radius: 16px;
     width: 400px;
     height: 400px;
+    padding-top: 10%;
+    background-color: rgb(221, 206, 255);
 
+}
+
+.ActionButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 70px;
 }

@@ -25,9 +25,12 @@ const Wrapper = () => {
         <div className='Wrapper'>
             <div className="Card">
                 <DisplayArea text={counter}></DisplayArea>
-                <ActionButton sign='+' backgroundColor='green' onClick={add}></ActionButton>
-                <ActionButton sign='0' backgroundColor='blue' onClick={reset}></ActionButton>
-                <ActionButton sign='-' backgroundColor='red' onClick={subtract}></ActionButton>
+                <div className="ActionButtons">
+                    <ActionButton sign='+' backgroundColor='green' onClick={add}></ActionButton>
+                    <ActionButton sign='0' backgroundColor='blue' onClick={reset}></ActionButton>
+                    <ActionButton sign='-' backgroundColor='red' onClick={subtract}></ActionButton>
+
+                </div>
             </div>
         </div>
     )
